@@ -10,7 +10,7 @@ public class PlottyBoy : MonoBehaviour {
 	void Start () {
         plotter = new Plotter();
         plotter.SetInput("-8", "8", "0", "X", "0", "X");
-        plotter.SetOrigin(184.8f, 3f, 177.8f);
+        plotter.SetOrigin(187.01f, 2.27f, 183.74f);
         plotter.Plot();
 	}
 	

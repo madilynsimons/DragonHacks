@@ -20,6 +20,7 @@ public class PlotFromInput : MonoBehaviour {
 
 	void OnTriggerEnter (Collider obj) {
 		plotter.SetInput (textRef [0].text, textRef [1].text, textRef [2].text, textRef [3].text, textRef [4].text, textRef [5].text);
-		plotter.Plot ();
+        plotter.SetOrigin(187.01f, 2.27f, 183.74f);
+        plotter.Plot ();
 	}
 }

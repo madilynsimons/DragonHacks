@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.012929159, g: 0.0031735539, b: 0.00010252776, a: 1}
+  m_IndirectSpecularColor: {r: 0.000018079098, g: 0.00000003164006, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -7914,7 +7914,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.y
@@ -13408,7 +13408,22 @@ Prefab:
         type: 2}
       propertyPath: raycastingSource
       value: 
-      objectReference: {fileID: 1038037268}
+      objectReference: {fileID: 1980355006}
+    - target: {fileID: 224704628127969010, guid: d8ab7db57ab8a7b4e8647640ee3c16c2,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000000347874
+      objectReference: {fileID: 0}
+    - target: {fileID: 224785100406219360, guid: d8ab7db57ab8a7b4e8647640ee3c16c2,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000004968856
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170291988869766, guid: d8ab7db57ab8a7b4e8647640ee3c16c2,
+        type: 2}
+      propertyPath: wasStaticOnStart
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8ab7db57ab8a7b4e8647640ee3c16c2, type: 2}
   m_IsPrefabParent: 0
@@ -14485,11 +14500,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1141757728748410, guid: b9931ddb45f784e4abc9535039707d3b, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9931ddb45f784e4abc9535039707d3b, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1980355006 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4688056292221062, guid: b9931ddb45f784e4abc9535039707d3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1980355005}
 --- !u!1001 &1986219585
 Prefab:
   m_ObjectHideFlags: 0
